@@ -357,3 +357,25 @@ h6 { font-size: 16px;}
         justify-content: center;
     }
 }
+
+.note1 {
+    position:relative;
+    background:#B2CCFF;
+    width:300px;
+    max-width: 100%;
+    text-align: center;
+    padding: 12px;
+    color:black;
+    }
+
+.note1:before {
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    border-width:0 16px 16px 0; 
+    border-style:solid;
+    border-color: #FFFFFF #FFFFFF #0054FF #0054FF; 
+    background: #0054FF; 
+    display:block; width:0;   
+}
